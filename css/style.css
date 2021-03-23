@@ -140,3 +140,165 @@ p {
 	max-width: 80%;
 	margin: 0px auto;
 }
+
+.car__project {
+	font-size: 0;
+	width: 800px;
+}
+
+.lvl1 {
+	padding-left: 180px;
+}
+
+.front__glass {
+	width: 200px;
+	height: 75px;
+	border-radius: 176px 29px 0px 0px / 75px 0px 0px 0px;
+	background-color: #777;
+	display: inline-block;
+}
+
+.front__glass-part {
+	width: 150px;
+	height: 50px;
+	background-color: rgb(77, 222, 241);
+	border-radius: 176px 29px 0px 0px / 75px 0px 0px 0px;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+/* .driver__part {
+	width: 150px;
+	height: 75px;
+	border-radius: 0px 29px 0px 0px / 0px 0px 0px 0px;
+	background-color: #777;
+	display: inline-block;
+} */
+
+.rear__glass {
+	width: 150px;
+	height: 75px;
+	border-radius: 0px 123px 0px 0px / 0px 75px 0px 0px;
+	background-color: #777;
+	display: inline-block;
+}
+
+.rear__glass-part {
+	width: 130px;
+	height: 50px;
+	background-color: rgb(77, 222, 241);
+	border-radius: 0px 123px 0px 0px / 0px 75px 0px 0px;
+	position: relative;
+	top: 10px;
+	right: 20px;
+}
+
+.rear__glass-part:hover {
+	background: rgb(77, 222, 241) url('../img/broken_glass.png') 0 0 / cover no-repeat;
+}
+
+.lvl2 {
+	position: relative;
+	top: -10px;
+}
+
+.front__body {
+	width: 250px;
+	height: 100px;
+	border-radius: 35px 0px 0px 25px;
+	background-color: #777;
+	display: inline-block;
+}
+
+.front__light-part {
+	width: 20px;
+	height: 20px;
+	background-color: rgb(251, 255, 0);
+	border: 1px solid rgb(251, 255, 0);
+	position: relative;
+	top: 15px;
+	left: -7px;
+	border-radius: 10px 0px 0px 5px;
+	
+}
+
+.front__light-part:hover {
+	box-shadow: -5px 0px 15px 3px rgb(251, 255, 0);
+}
+
+.middle__body {
+	width: 200px;
+	height: 100px;
+	background-color: #777;
+	display: inline-block;
+}
+
+.middle__body-part {
+	width: 30px;
+	height: 7px;
+	background-color: #000;
+	position: relative;
+	top: 12px;
+	left: 60px;
+}
+
+.rear__body {
+	width: 200px;
+	height: 100px;
+	border-radius: 0px 25px 25px 0px;
+	background-color: #777;
+	display: inline-block;
+}
+
+.rear__body-part {
+	width: 30px;
+	height: 7px;
+	background-color: #000;
+	position: relative;
+	top: 12px;
+	left: 20px;
+}
+
+
+.rear__light-part {
+	width: 20px;
+	height: 20px;
+	background-color: rgb(255, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
+	position: relative;
+	top: 5px;
+	left: 185px;
+	border-radius: 0px 10px 5px 0px;
+	
+}
+
+.rear__light-part:hover {
+	box-shadow: 5px 0px 15px 3px rgb(255, 0, 0);
+}
+
+.front__wheel {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: radial-gradient(ellipse at center, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+	top: -40px;
+	border: 10px solid #000;
+}
+
+.rear__wheel {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: radial-gradient(ellipse at center, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);	display: inline-block;
+	margin-left: 300px;
+	position: relative;
+	top: -40px;
+	border: 10px solid #000;
+}
+
+.block__car {
+	padding: 50px;
+}
